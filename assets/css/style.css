@@ -1,0 +1,30 @@
+/*Estilo da pagina index.html*/
+.center {
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+#menu li {
+    display: inline;
+    padding: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: gray;
+   
+}
+
+.p-30 {
+    padding: 30px;
+}
