@@ -1,30 +1,119 @@
 /*Estilo da pagina index.html*/
-.center {
-    text-align: center;
+body{
+    margin: 0%;
+    background: linear-gradient(45deg, #010440, #8C0303);
 }
 
-.container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+.rodape {
+    background: #F2E641;
+    display:table;
+    width: 100%;
+    text-align: right;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-#menu li {
-    display: inline;
-    padding: 20px;
-}
-
-#menu li a {
+.rodape a {
     text-decoration: none;
     color: black;
+    font-size: 18px;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+
+.fotoperfil {
+height: 110px;
+display: grid;
+place-items: center;
+padding-top: 10%;
+}
+
+.br-50 {
+    border-radius: 50%;
+    border:6px solid #F2E641;
+    
+}
+
+.wh{
+    width: 250px;
+    height: 250px;
+}
+
+
+.container {
+    margin: 0%;
+    padding-top: 200px;
+    padding-bottom: 10px;
+    flex-direction: row;
+    display: grid;
+    background-color: #F2E641;
+    width: 80%;
+    margin: 0 auto;
+    place-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.box {
+    padding-top: 60px;
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 10%;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
 }
 
-#menu li a:hover {
-    color: gray;
-   
+
+.logo {
+    
+    width: 600px;
+    height: auto;
+    
 }
 
-.p-30 {
-    padding: 30px;
+.texto {
+    padding-top: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.cena {
+    width: auto;
+    place-items: center;
+    padding-top: 60px;
+    width: 100%;
+    margin: 0 auto;
+}
+.cena2 {
+    width: auto;
+    place-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.video {
+    place-items: center;
+    border:6px solid black;
+}
+
+.container h2{
+    text-decoration: none;
+    color: black;
+    font-size: 45px;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 60px;
+}
+
+.center {
+    text-align: center;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.organiza {
+    text-align:justify;
+    font-family:'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
